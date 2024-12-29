@@ -1,0 +1,63 @@
+** Drc report for C:/Users/Pc/Documents/devreler/MOS THREE PHASE/MOS THREE PHASE.kicad_pcb **
+** Created on 2024-02-08 14:14:54 **
+
+** Found 16 DRC violations **
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(152.4000 mm, 43.1800 mm): Via [<no net>] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(152.4000 mm, 246.3800 mm): Via [<no net>] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(246.3800 mm, 43.1800 mm): Via [<no net>] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(246.3800 mm, 246.3800 mm): Via [<no net>] on F.Cu - B.Cu
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(168.6941 mm, 248.8819 mm): Track [GND] on B.Cu, length 0.0898 mm
+[holes_co_located]: Drilled holes co-located
+    Local override; Severity: warning
+    @(168.6560 mm, 63.1952 mm): Via [PHASE_1] on F.Cu - B.Cu
+    @(168.6560 mm, 63.1952 mm): Via [PHASE_1] on F.Cu - B.Cu
+[lib_footprint_mismatch]: Footprint 'TO-247-3_Horizontal_TabDown' does not match copy in library 'Package_TO_SOT_THT'.
+    Local override; Severity: warning
+    @(194.9306 mm, 137.8430 mm): Footprint Q3
+[lib_footprint_mismatch]: Footprint 'TO-247-3_Horizontal_TabDown' does not match copy in library 'Package_TO_SOT_THT'.
+    Local override; Severity: warning
+    @(201.6106 mm, 203.5330 mm): Footprint Q5
+[lib_footprint_mismatch]: Footprint 'TO-247-3_Horizontal_TabDown' does not match copy in library 'Package_TO_SOT_THT'.
+    Local override; Severity: warning
+    @(211.1106 mm, 67.6430 mm): Footprint Q2
+[lib_footprint_mismatch]: Footprint 'TO-247-3_Horizontal_TabDown' does not match copy in library 'Package_TO_SOT_THT'.
+    Local override; Severity: warning
+    @(212.3806 mm, 137.8430 mm): Footprint Q4
+[lib_footprint_mismatch]: Footprint 'TO-247-3_Horizontal_TabDown' does not match copy in library 'Package_TO_SOT_THT'.
+    Local override; Severity: warning
+    @(219.0606 mm, 203.5330 mm): Footprint Q6
+[lib_footprint_mismatch]: Footprint 'TO-247-3_Horizontal_TabDown' does not match copy in library 'Package_TO_SOT_THT'.
+    Local override; Severity: warning
+    @(193.6606 mm, 67.6430 mm): Footprint Q1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(178.7906 mm, 227.0330 mm): Reference 'R6'
+    @(182.0606 mm, 227.3430 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(210.3606 mm, 238.3930 mm): Line on F.Silkscreen
+    @(213.0806 mm, 238.7030 mm): Reference 'D9'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(245.7906 mm, 81.3830 mm): Reference 'J3'
+    @(245.7906 mm, 81.3830 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(245.7906 mm, 81.3830 mm): Reference 'J3'
+    @(245.7906 mm, 78.3830 mm): Line on F.Silkscreen
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **
